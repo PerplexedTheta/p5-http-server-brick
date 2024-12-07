@@ -19,6 +19,7 @@ provides:
 recommends:
   HTTP::Daemon::SSL: '1.02'
 requires:
+  File::Temp: '0'
   HTTP::Daemon: '0'
   HTTP::Status: '0'
   IO::Handle: '0'
